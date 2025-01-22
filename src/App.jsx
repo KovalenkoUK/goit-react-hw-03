@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ContactList from './components/ContactList/ContactList';
 import SearchBox from './components/SearchBox/SearchBox';
 import ContactForm from './components/ContactForm/ContactForm';
+import Contact from './components/Contact/Contact';
 import './App.module.css';
 import { nanoid } from 'nanoid';
 

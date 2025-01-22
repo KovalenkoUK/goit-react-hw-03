@@ -1,4 +1,5 @@
 import React from 'react';
+import App from '../../App';
 import './Contact.module.css';
 
 const Contact = ({ contact, onDeleteContact }) => {
