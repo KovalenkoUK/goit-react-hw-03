@@ -1,6 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-  }
+@import url(./components/Contact/Contact.module.css);
+@import url(./components/ContactForm/ContactForm.module.css);
+@import url(./components/ContactList/ContactList.module.css);
+@import url(./components/SearchBox/SearchBox.module.css);
+@import url(./App.module.css);
