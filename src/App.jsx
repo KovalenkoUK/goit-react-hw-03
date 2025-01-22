@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Formik } from 'formik';
-import Contact from './components/Contact/Contact';
 import ContactList from './ContactList';
 import SearchBox from './SearchBox';
 import ContactForm from './ContactForm';
