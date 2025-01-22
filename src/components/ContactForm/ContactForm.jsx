@@ -24,7 +24,7 @@ const ContactForm = ({ onAddContact }) => {
       }}
     >
       {() => (
-        <Form>
+        <Form className="contact-form">
           <div>
             <label htmlFor="name">Name</label>
             <Field name="name" type="text" />

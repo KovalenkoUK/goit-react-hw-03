@@ -16,7 +16,7 @@ const App = () => {
       { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
     ];
   });
-  
+
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
@@ -41,7 +41,7 @@ const App = () => {
   );
 
   return (
-    <div>
+    <div className="app">
       <h1>Contact List</h1>
       <SearchBox value={searchTerm} onChange={handleSearchChange} />
       <ContactForm onAddContact={handleAddContact} />
