@@ -8,8 +8,8 @@ const ContactList = ({ contacts }) => {
                 <Contact key={contact.id} contact={contact} />
             ))}
         </ul>
-    )
-}
+    );
+};
 
 
 
